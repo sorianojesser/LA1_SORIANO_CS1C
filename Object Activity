@@ -1,0 +1,17 @@
+// Step 1: Create a car object with type, model, and color properties
+let car = {
+  type: "sedan",
+  model: "Corolla",
+  color: "red"
+};
+
+// Step 2: Use typeof to check the type of the object
+console.log("Type of 'car':", typeof car); // Output: object
+
+// Step 3: Update the 'type' property to "Toyota"
+car.type = "Toyota";
+console.log("Updated car object (type changed):", car);
+
+// Step 4: Add a new property 'wheels' with the value 4
+car.wheels = 4;
+console.log("Final updated car object:", car);
