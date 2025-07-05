@@ -1,0 +1,17 @@
+// Step 1: Create an array of favorite singers
+let favSingers = ["Adele", "Bruno Mars", "Ed Sheeran"];
+
+// Step 2: Log the first singer using index notation
+console.log("My top favorite singer is:", favSingers[0]);
+
+// Step 3: Create an array of favorite numbers
+let favNumbers = [7, 13, 22, 42];
+
+// Step 4: Create a mixed array with different data types
+let mixedArr = ["string", ["otherarray"], 123, true];
+
+// Step 5: Access and log each item in the mixedArr using index notation
+console.log("First item:", mixedArr[0]);
+console.log("Second item (an array):", mixedArr[1]);
+console.log("Third item (a number):", mixedArr[2]);
+console.log("Fourth item (a boolean):", mixedArr[3]);
