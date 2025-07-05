@@ -1,0 +1,38 @@
+// Step 1: Use concat() to join two arrays
+let arr1 = ["Cecile", "Lone"];
+let arr2 = ["Emil", "Tobias", "Linus"];
+let combinedArr = arr1.concat(arr2);
+console.log("Combined Array:", combinedArr);
+
+// Step 2: Use push() to add "Kiwi" to the fruits array
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+console.log("After push:", fruits);
+
+// Step 3: Use unshift() to add 4 and 5 to the beginning of array1
+let numbers = [1, 2, 3];
+numbers.unshift(4, 5);
+console.log("After unshift:", numbers);
+
+// Step 4: Use pop() to remove the last element from the fruits array
+fruits.pop();
+console.log("After pop:", fruits);
+
+// Step 5: Use shift() to remove the first element from array2
+let array2 = [1, 2, 3];
+array2.shift();
+console.log("After shift:", array2);
+
+// Step 6: Use sort() to sort the fruits array alphabetically
+fruits.sort();
+console.log("Sorted fruits:", fruits);
+
+// Step 7: Use slice() to create a portion of the fruits array
+let slicedFruits = fruits.slice(1, 3);
+console.log("Sliced Fruits:", slicedFruits);
+
+// Step 8: Use splice() to insert and remove elements in months array
+let months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb"); // Insert "Feb" at index 1
+months.splice(4, 1, "May"); // Replace "June" with "May"
+console.log("Updated Months:", months);
